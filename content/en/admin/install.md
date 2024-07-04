@@ -68,7 +68,7 @@ adduser --disabled-login mastodon
 We can then switch to the user:
 
 ```bash
-su - mastodon
+su -l mastodon -s /bin/bash
 ```
 
 And proceed to install rbenv and rbenv-build:
